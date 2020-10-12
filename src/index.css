@@ -1,6 +1,6 @@
 :root {
     --blanco: #ffffff;
-    --gris1: #edf2f6;
+    --gris1: #cdd2d6;
     --gris2: #2f3848;
     --gris3: #1a202d;
     --negro: #000000;
@@ -69,10 +69,15 @@
     color: var(--blanco);
   }
   .btn-primario:hover {
-    background: var(--gris3);
+    background: var(--gris1);
+    color: var(--gris2);
   }
   .btn-secundario {
     background-color: var(--gris1);
+  }
+  .btn-secundario:hover {
+    background-color: var(--gris2);
+    color: var(--blanco);
   }
   .btn-block {
     display: block;
@@ -249,11 +254,11 @@
   }
   .completo,
   .correcto {
-    background-color: rgba(154, 252, 154, .3);
+    background-color: rgba(89, 180, 89);
     color: var(--gris3);
   }
   .incompleto{
-    background-color: rgba(255, 178, 178, .4);
+    background-color: rgb(243, 72, 72);
     color: var(--gris3);
   }
   .error {
